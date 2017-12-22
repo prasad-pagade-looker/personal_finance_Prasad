@@ -2,7 +2,7 @@ include: "/personal_finance_base/transactions.view.lkml"
 
 view: transactions_custom {
   extends: [transactions]
-  sql_table_name: personal_finance.mint_andy ;;
+  sql_table_name: mint_database.transactions ;;
 
   dimension: category {
     type: string
